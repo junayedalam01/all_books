@@ -5,8 +5,8 @@ from email.mime.multipart import MIMEMultipart
 import getpass # To securely input the password
 
 # --- Email Configuration ---
-sender_email = "junayedalam188@gmail.com"
-receiver_email = "9563bittu@gmail.com" # Can be a list for multiple recipients
+sender_email = "send@gmail.com"
+receiver_email = "rec@gmail.com" # Can be a list for multiple recipients
 subject = "Hi ..."
 body = "Every time I talk to you, my heart forgets all its worries. You’re my peace, my smile, my favorite thought."
 
@@ -14,7 +14,7 @@ body = "Every time I talk to you, my heart forgets all its worries. You’re my 
 # It is recommended to use environment variables in production
 # app_password = getpass.getpass(f"Enter your App Password for {sender_email}: ") 
 # Or hardcode for simple testing (not recommended for production)
-app_password = "fftm lgpo xbit zczo " # Replace with your copied App Password
+app_password = "app password in gmail" # Replace with your copied App Password
 
 # Create the email message
 message = MIMEMultipart()
